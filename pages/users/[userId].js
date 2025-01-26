@@ -1,8 +1,10 @@
-import React from 'react'
+import { useRouter } from "next/router"
 
 function UserId() {
+    const router = useRouter();
+    const id = router.query.userId;
   return (
-    <div>user unkown</div>
+    <p>user {id}</p>
   )
 }
 
