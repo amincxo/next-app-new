@@ -12,7 +12,7 @@ export default function Home() {
                 <Link href='/courses' replace >Go to courses</Link> 
             </li>
             <li>
-                <Link href='/users' >Go to courses</Link> 
+                <Link href='/users' >Go to users</Link> 
             </li>
         </ul>
     </div>

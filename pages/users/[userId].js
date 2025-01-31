@@ -4,7 +4,7 @@ function UserId() {
     const router = useRouter();
     const id = router.query.userId;
   return (
-    <p>user {id}</p>
+    <h1>user {id}</h1>
   )
 }
 
